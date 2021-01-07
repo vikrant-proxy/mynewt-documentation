@@ -37,7 +37,7 @@ maximum number of input characters. If an input line exceeds the
 BUFFER\_SIZE\_DOWN number of characters, RTT ignores the extra
 characters. The default value is 16 characters. For example, this limit
 causes shell commands with more than 16 characters of input to fail. You
-may set the Mynewt ``RTT_BUFFER_SIZE_DOWN`` syscfg setting in your
+may set the Mynewt ``RTT_TERMINAL_BUFFER_SIZE_DOWN`` syscfg setting in your
 target to increase this value if you do not upgrade your J-Link version.
 
 We can disable uart and enable rtt with the newt target command:
